@@ -13,3 +13,6 @@ class TicTacToe
             for j in range(3):
                 row.append('-')
             self.board.append(row)
+
+    def get_random_first_player(self):
+        return random.randint(0, 1)
