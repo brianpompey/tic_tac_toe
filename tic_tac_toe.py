@@ -1,7 +1,7 @@
 from _typeshed import Self
 import random
 
-class TicTacToe
+class TicTacToe:
 
     def __init__(self):
         self.board = []
@@ -82,7 +82,7 @@ class TicTacToe
             for item in row:
                 print(item, end=" ")
             print()
-            
+
     def start(self):
             self.create_board()
 
